@@ -1,3 +1,10 @@
+.paragraph-posts {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 100%;
+
+  margin-bottom: 80px;
+}
 .post {
   display: flex;
 

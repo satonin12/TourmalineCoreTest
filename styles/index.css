@@ -5,3 +5,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
 }
+.container-cards {
+  padding: 80px 100px;
+}
+.container-posts {
+  padding: 0 100px 100px;
+}
+.paragraph {
+  margin: 0;
+  padding: 0;
+}

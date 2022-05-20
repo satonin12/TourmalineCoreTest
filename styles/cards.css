@@ -1,9 +1,17 @@
+.paragraph-cards {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #131313;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  margin-bottom: 80px;
+}
 .cards {
 
 }
 .cards__items {
-
-  margin-left: 10px;
   width: 875px;
   border-right: 10px solid #753BBD;
 }
