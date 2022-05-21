@@ -101,7 +101,17 @@
   color: #000000;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1024px) {
+  .cards__items {
+    min-width: 640px;
+    width: auto;
+  }
+  .cards__item {
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
   .paragraph-cards {
     text-shadow: none;
     margin: 120px 0 80px;
