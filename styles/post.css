@@ -1,8 +1,12 @@
+.container-posts {
+  max-width: 100%;
+}
 .paragraph-posts {
   font-weight: 700;
   font-size: 46px;
   line-height: 100%;
 
+  width: 120px;
   margin-bottom: 80px;
 }
 .post {
@@ -122,7 +126,7 @@
 
 @media (max-width: 1860px) {
   .post {
-    max-width: 1720px;
+    width: auto;
   }
   .event {
     max-width: 420px;
@@ -179,7 +183,7 @@
     min-height: 392px;
   }
   .post__picture{
-    min-width: 50px;
+    min-width: 54px;
     order: 0;
     max-height: 392px;
   }
