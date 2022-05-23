@@ -20,12 +20,13 @@
   min-height: 393px;
 }
 .post__picture-img {
-  min-width: inherit;
-  min-height: inherit;
+  min-width: 504px;
+  min-height: 393px;
 }
 .post__info {
   padding: 80px 84px;
   background: #F3F3F3;
+  z-index: 5;
 }
 .post__header {
   display: flex;
@@ -145,6 +146,10 @@
     width: 304px;
     min-width: 204px;
   }
+  .post__picture-img {
+    width: 304px;
+    min-width: 204px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -188,7 +193,7 @@
     max-height: 392px;
   }
   .post__picture-img {
-    width: 50px;
+    min-width: 54px;
     max-height: 392px;
     object-fit: cover;
     object-position: 50% 50%;;
