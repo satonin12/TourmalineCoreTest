@@ -11,7 +11,7 @@ body {
 .container-posts {
   padding: 0 100px 100px;
 }
-.paragraph {
+.caption {
   margin: 0;
   padding: 0;
 }
@@ -22,12 +22,18 @@ body {
   display: none;
 }
 
+.dash {
+  width: 40px;
+  height: 2px;
+  background: #DDDDDD;
+}
+
 @media (max-width: 1440px) {
   .container-cards {
     padding: 80px 0 80px 100px;
   }
   .container-posts {
-    padding: 0 0 100px 100px;
+    padding: 80px 0 100px 100px;
   }
 }
 
@@ -48,7 +54,7 @@ body {
     padding: 0 18px;
   }
   .container-posts {
-    padding: 0 18px 41px;
+    padding: 80px 18px 41px;
   }
   .block--dk-disabled {
     display: block;

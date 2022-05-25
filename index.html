@@ -8,9 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="styles/index.css" rel="stylesheet">
+    <link href="styles/event.css" rel="stylesheet">
+    <link href="styles/logo.css" rel="stylesheet">
+    <link href="styles/menu.css" rel="stylesheet">
     <link href="styles/header.css" rel="stylesheet">
     <link href="styles/cards.css" rel="stylesheet">
     <link href="styles/post.css" rel="stylesheet">
+
 </head>
 <body>
 <header class="header">
@@ -42,31 +46,29 @@
                 </li>
             </ul>
         </nav>
-        <button class="header__nav-button block--tb-enabled">
+        <button type="button" class="header__nav-button block--tb-enabled">
             <img class="header__button-icon" src="assets/icons/burger.svg" alt="Burger icon">
         </button>
-        <button class="header__nav-button">
+        <button type="button" class="header__nav-button">
             <img class="header__button-icon" src="assets/icons/search.svg" alt="Search icon">
         </button>
     </div>
 </header>
 <main>
     <section class="cards container-cards">
-        <h1 class="paragraph paragraph-cards">CARDS</h1>
-        <div class="cards__items">
-            <div class="cards__item">
+        <h2 class="caption caption-cards">CARDS</h2>
+        <ul class="cards__items">
+            <li class="cards__item">
                 <div class="cards__item-info">
-                    <div class="cards__info-wrapper">
-                        <div class="cards__item-name">Classic Ensuite</div>
-                        <div class="cards__item-place">BROADCASTING TOWER</div>
-                        <div class="cards__item-text">
-                            <img class="cards__item-icon" src="assets/icons/calendar_black.svg" alt="Calendar"/>
-                            <span>43 week + 1 day tenancy</span>
-                        </div>
-                        <div class="cards__item-text">
-                            <img class="cards__item-icon" src="assets/icons/payment_card.svg" alt="Calendar"/>
-                            <span>£183.00 per week / £7,894.62 total</span>
-                        </div>
+                    <div class="cards__item-name">Classic Ensuite</div>
+                    <div class="cards__item-place">BROADCASTING TOWER</div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/calendar_black.svg" alt="Calendar"/>
+                        <span>43 week + 1 day tenancy</span>
+                    </div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/payment_card.svg" alt="Calendar"/>
+                        <span>£183.00 per week / £7,894.62 total</span>
                     </div>
                 </div>
                 <div class="cards__item-picture">
@@ -75,8 +77,8 @@
                     </div>
                     <img class="cards__item-img" src="assets/images/room1.png" alt="Room 1"/>
                 </div>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
                 <div class="cards__item-info">
                     <div class="cards__item-name">Premium I</div>
                     <div class="cards__item-place">BROADCASTING TOWER</div>
@@ -95,8 +97,8 @@
                     </div>
                     <img class="cards__item-img" src="assets/images/room2.png" alt="Room 1"/>
                 </div>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
                 <div class="cards__item-info">
                     <div class="cards__item-name">Classic Ensuite</div>
                     <div class="cards__item-place">BROADCASTING TOWER</div>
@@ -112,8 +114,8 @@
                 <div class="cards__item-picture">
                     <img class="cards__item-img" src="assets/images/room3.png" alt="Room 1"/>
                 </div>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
                 <div class="cards__item-info">
                     <div class="cards__item-name">Premium I Studio</div>
                     <div class="cards__item-place">BROADCASTING TOWER</div>
@@ -129,8 +131,8 @@
                 <div class="cards__item-picture">
                     <img class="cards__item-img" src="assets/images/room4.png" alt="Room 1"/>
                 </div>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
                 <div class="cards__item-info">
                     <div class="cards__item-name">Standard</div>
                     <div class="cards__item-place">MILL STREET</div>
@@ -144,11 +146,11 @@
                     </div>
                 </div>
                 <div class="cards__item-picture cards__item-picture--p-disabled"></div>
-            </div>
-        </div>
+            </li>
+        </ul>
     </section>
     <section class="container-posts">
-        <h1 class="paragraph paragraph-posts">POST</h1>
+        <h2 class="caption caption-posts">POST</h2>
         <div class="post">
             <div class="post__picture">
                 <img class="post__picture-img" src="assets/images/post_preview.png" alt="Lorem ipsum"/>
@@ -159,7 +161,7 @@
                     <div class="dash"></div>
                     <div class="post__show-more post__show-more--mb-disabled">SHOW ME MORE</div>
                 </div>
-                <p class="post__info-subtitle">SUBHEADING DOLOR</p>
+                <div class="post__info-subtitle">SUBHEADING DOLOR</div>
                 <div class="event">
                     <div class="event__calendar">
                         <img class="event__calendar-img" src="assets/icons/calendar_grey.svg" alt="Lorem ipsum"/>
