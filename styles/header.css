@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0 0 0 15px;
+  height: 53px;
+
+  border: 1px solid #DDDDDD;
+}
+.header__nav {
+  display: flex;
+}
+.header__nav-button {
+  width: 53px;
+  height: 53px;
+  margin: 0;
+  padding: 0;
+
+  background: #fff;
+  border: none;
+  border-left: 1px solid #DDDDDD;
+}
+.header__button-icon {
+  cursor: pointer;
+}
+

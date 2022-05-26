@@ -2,9 +2,199 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
+    <link href="styles/event.css" rel="stylesheet">
+    <link href="styles/logo.css" rel="stylesheet">
+    <link href="styles/menu.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/cards.css" rel="stylesheet">
+    <link href="styles/post.css" rel="stylesheet">
+
 </head>
 <body>
-
+<header class="header">
+    <div class="logo">
+        <a class="logo__link" href="#">
+            <img class="logo__img" src="assets/icons/main_logo.svg" alt="LBU"/>
+        </a>
+    </div>
+    <div class="header__nav">
+        <nav class="menu">
+            <ul class="menu__list" role="menubar">
+                <li class="menu__list-item" role="none">
+                    <a class="menu__link" href="#">Study</a>
+                </li>
+                <li class="menu__list-item" role="none">
+                    <a class="menu__link" href="#">International</a>
+                </li>
+                <li class="menu__list-item" role="none">
+                    <a class="menu__link" href="#">Research</a>
+                </li>
+                <li class="menu__list-item" role="none">
+                    <a class="menu__link" href="#">We are Beckett</a>
+                </li>
+                <li class="menu__list-item" role="none">
+                    <a class="menu__link" href="#">Business</a>
+                </li>
+                <li class="menu__list-item" role="none">
+                    <a class="menu__link" href="#">Covid-19</a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="header__nav-button block--tb-enabled">
+            <img class="header__button-icon" src="assets/icons/burger.svg" alt="Burger icon">
+        </button>
+        <button type="button" class="header__nav-button">
+            <img class="header__button-icon" src="assets/icons/search.svg" alt="Search icon">
+        </button>
+    </div>
+</header>
+<main>
+    <section class="cards container-cards">
+        <h2 class="caption caption-cards">CARDS</h2>
+        <ul class="cards__items">
+            <li class="cards__item">
+                <div class="cards__item-info">
+                    <div class="cards__item-name">Classic Ensuite</div>
+                    <div class="cards__item-place">BROADCASTING TOWER</div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/calendar_black.svg" alt="Calendar"/>
+                        <span>43 week + 1 day tenancy</span>
+                    </div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/payment_card.svg" alt="Calendar"/>
+                        <span>£183.00 per week / £7,894.62 total</span>
+                    </div>
+                </div>
+                <div class="cards__item-picture">
+                    <div class="stick-image stick-image--bg_yellow">
+                        <span class="stick-image__text">360°</span>
+                    </div>
+                    <img class="cards__item-img" src="assets/images/room1.png" alt="Room 1"/>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="cards__item-info">
+                    <div class="cards__item-name">Premium I</div>
+                    <div class="cards__item-place">BROADCASTING TOWER</div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/calendar_black.svg" alt="Calendar"/>
+                        <span>43 week + 1 day tenancy</span>
+                    </div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/payment_card.svg" alt="Calendar"/>
+                        <span>£195.00 per week / £8,412.30 total</span>
+                    </div>
+                </div>
+                <div class="cards__item-picture">
+                    <div class="stick-image stick-image--bg_yellow">
+                        <span class="stick-image__text">360°</span>
+                    </div>
+                    <img class="cards__item-img" src="assets/images/room2.png" alt="Room 1"/>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="cards__item-info">
+                    <div class="cards__item-name">Classic Ensuite</div>
+                    <div class="cards__item-place">BROADCASTING TOWER</div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/calendar_black.svg" alt="Calendar"/>
+                        <span>43 week + 1 day tenancy</span>
+                    </div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/payment_card.svg" alt="Calendar"/>
+                        <span>£183.00 per week / £7,894.62 total</span>
+                    </div>
+                </div>
+                <div class="cards__item-picture">
+                    <img class="cards__item-img" src="assets/images/room3.png" alt="Room 1"/>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="cards__item-info">
+                    <div class="cards__item-name">Premium I Studio</div>
+                    <div class="cards__item-place">BROADCASTING TOWER</div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/calendar_black.svg" alt="Calendar"/>
+                        <span>43 week + 1 day tenancy</span>
+                    </div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/payment_card.svg" alt="Calendar"/>
+                        <span>£245.00 per week / £10,569.30 total</span>
+                    </div>
+                </div>
+                <div class="cards__item-picture">
+                    <img class="cards__item-img" src="assets/images/room4.png" alt="Room 1"/>
+                </div>
+            </li>
+            <li class="cards__item">
+                <div class="cards__item-info">
+                    <div class="cards__item-name">Standard</div>
+                    <div class="cards__item-place">MILL STREET</div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/calendar_black.svg" alt="Calendar"/>
+                        <span>43 week tenancy</span>
+                    </div>
+                    <div class="cards__item-text">
+                        <img class="cards__item-icon" src="assets/icons/payment_card.svg" alt="Calendar"/>
+                        <span>£144.00 per week / £6,192.00 total</span>
+                    </div>
+                </div>
+                <div class="cards__item-picture cards__item-picture--p-disabled"></div>
+            </li>
+        </ul>
+    </section>
+    <section class="container-posts">
+        <h2 class="caption caption-posts">POST</h2>
+        <div class="post">
+            <div class="post__picture">
+                <img class="post__picture-img" src="assets/images/post_preview.png" alt="Lorem ipsum"/>
+            </div>
+            <div class="post__info">
+                <div class="post__header">
+                    <div class="post__info-title">IPSUM LOREM</div>
+                    <div class="dash"></div>
+                    <div class="post__show-more post__show-more--mb-disabled">SHOW ME MORE</div>
+                </div>
+                <div class="post__info-subtitle">SUBHEADING DOLOR</div>
+                <div class="event">
+                    <div class="event__calendar">
+                        <img class="event__calendar-img" src="assets/icons/calendar_grey.svg" alt="Lorem ipsum"/>
+                    </div>
+                    <div class="event__text">
+                        <span class="event__text--purple">Joint Social Work Education and Research Conference 2022</span>
+                        - <span class="event__text block--mb-disabled">Thursday</span> 23 June 2022
+                    </div>
+                    <div class="event__link">
+                        <img class="event__link-icon" src="assets/icons/arrow_right_grey.svg" alt="Lorem ipsum"/>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="event__calendar">
+                        <img class="event__calendar-img" src="assets/icons/calendar_grey.svg" alt="Lorem ipsum"/>
+                    </div>
+                    <div class="event__text">
+                        <span class="event__text--purple">International SEEDS Conference 2022</span> - <span
+                            class="event__text block--mb-disabled">Wednesday</span> 31
+                        August 2022
+                    </div>
+                    <div class="event__link">
+                        <img class="event__link-icon" src="assets/icons/arrow_right_grey.svg" alt="Lorem ipsum"/>
+                    </div>
+                </div>
+                <div class="post__show-more post__show-more--dk-disabled">SHOW ME MORE</div>
+            </div>
+            <div class="post__cover">
+                <img class="post__cover-image" src="assets/images/post_cover.png" alt="Lorem ipsum"/>
+            </div>
+            <div class="post__border"></div>
+        </div>
+    </section>
+</main>
 </body>
 </html>
